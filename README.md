@@ -95,4 +95,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For questions or feedback, please contact Mustafa at [your.email@example.com].
+For questions or feedback, please contact Mustafa at [mustafa.mannan.official@gmail.com].
