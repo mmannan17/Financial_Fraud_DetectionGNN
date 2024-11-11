@@ -1,0 +1,6 @@
+venv/
+*.csv
+
+elliptic_txs_features.csv
+elliptic_txs_edgelist.csv
+elliptic_txs_classes.csv
