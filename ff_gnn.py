@@ -34,11 +34,11 @@ labels = np.array([label_mapping[label] for label in labels])
 x = torch.tensor(features, dtype=torch.float).to(device)
 y = torch.tensor(labels, dtype=torch.long).to(device)
 
-# Assuming 'edges' is your DataFrame containing the edge list
+
 unique_nodes = pd.unique(edges.values.ravel())
 node_mapping = {node: i for i, node in enumerate(unique_nodes)}
 
-# Re-map the edge indices
+# Re-mapping the edge indices
 edges_mapped = edges.applymap(node_mapping.get)
 edge_index = torch.tensor(edges_mapped.values.T, dtype=torch.long).to(device)
 
